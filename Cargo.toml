@@ -1,0 +1,18 @@
+[package]
+name = "chronomancy"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/InnerWarden/chronomancy"
+homepage = "https://innerwarden.com"
+description = "Timing-based integrity attestation — detect firmware rootkits and kernel hooks by measuring CPU cycles. No hardware required."
+keywords = ["firmware-security", "rootkit-detection", "timing-attack", "ebpf", "security"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+chrono = { version = "0.4", features = ["serde"] }
+
+[dev-dependencies]
+tempfile = "3"
