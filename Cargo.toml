@@ -2,7 +2,7 @@
 name = "chronomancy"
 version = "0.1.0"
 edition = "2021"
-license = "MIT"
+license = "AGPL-3.0"
 repository = "https://github.com/InnerWarden/chronomancy"
 homepage = "https://innerwarden.com"
 description = "Timing-based integrity attestation — detect firmware rootkits and kernel hooks by measuring CPU cycles. No hardware required."
